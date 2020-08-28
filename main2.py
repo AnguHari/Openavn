@@ -32,7 +32,7 @@ def pass_zip_file(zip_file_name,zip_file_path):
 def main_program(): 
     #Main program
     try:
-        path_folder = "/root/Desktop/test/done"
+        path_folder = "/s3/hivemindetl/JOB/200401"
         count_zip = 0
         zip_list = list()
         t1 = time.time()

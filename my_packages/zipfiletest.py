@@ -13,7 +13,7 @@ def last_log(count_folder_copy):
 
 def zip_file(zip_file_name,zip_file_path):
     try:
-        path_folder = "/root/Desktop/test/done"
+        path_folder = "/s3/hivemindetl/JOB/200401"
         zip_filename,file_extension = os.path.splitext(zip_file_name)
         add_item = list()
         zip_filename_name = path_folder +"/"+zip_filename
